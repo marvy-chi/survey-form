@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>different animals</title>
+  </head>
+  <body>
+    <h1 id="title">Different Animals</h1>
+  <p id="description">Please fill this form correctly</p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label">Name:<input id="name" type="text" placeholder="Marv J" required ></label>
+    <label id="email-label">Email:<input id="email" type="email" placeholder="marv@gmail.com" required></label>
+    <label id="number-label">Age:<input id="number" type="number" min="10" max="13" placeholder="11"></label>
+    <label>Address:<input id="address" type="text"></label>
+
+    </fieldset>
+    <fieldset>
+      <label>what animal do you like most?
+        <select id="dropdown">
+          <option value="cat">cat<option>
+          <option value="dog">dog</option>
+          <option value="giraffe">giraffe</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+   <legend> why do you like that animal?</legend> 
+      <label><input type="radio" value="1" name="prefrent" class="inline">fluffy</label>
+            <label><input type="radio" value="2" name="prefrent" class="inline">friendly</label>
+           <label><input type="radio" value="3" name="prefrent" class="inline">kind</label>
+                 <label><input type="radio" value="4" name="prefrent" class="inline">lovely</label>       
+    </fieldset>
+    <fieldset>
+      <label>Are you allergic to eny animal? </label>
+      <label><input type="checkbox" value="yes" class="inline">yes</label>
+      <label><input type="checkbox" value="no" class="inline">no</label>
+    </fieldset>
+    <fieldset>
+      <label>Drop your coments here
+       <textarea></textarea> 
+      </label>
+    </fieldset>
+    <input type="submit" id="submit">
+    </form>  
+  </body>
+</html>
